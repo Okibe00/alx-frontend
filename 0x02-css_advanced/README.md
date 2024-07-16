@@ -1,1 +1,0 @@
-# Styling page exercises
