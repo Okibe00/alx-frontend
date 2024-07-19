@@ -316,17 +316,17 @@ ul.row {
 	left: var(--header-logo-link-left);
 }
 
-.nav-link::before {
-	content: "empty";
+.nav .nav-link::before {
+	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
 	background-color: var(--color-white);
 	width: 0;
-	height: calc(20% * 1rem);
+	height: 0.2rem;
 }
 
-.nav-link::before .nav-item:hover {
+ .nav .nav-item:hover .nav-link::before {
 	background-color: var(--color-primary);
 	width: 100%;
 }
